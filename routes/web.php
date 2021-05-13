@@ -16,7 +16,7 @@ use App\Product;
 
 Route::middleware('auth')->group(function(){
 
-	//ajuste para entrar no raiz do projeto
+	//ajuste para entrar no raiz / do projeto
 	Route::get('/', function(){
 		$product = Product::orderby('description', 'asc')->get();	
 		return view('product.index', compact('product'));
