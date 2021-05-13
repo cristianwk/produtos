@@ -16,12 +16,15 @@ use App\Product;
 
 Route::middleware('auth')->group(function(){
 
+<<<<<<< HEAD
 	//ajuste para entrar no raiz / do projeto
 	Route::get('/', function(){
 		$product = Product::orderby('description', 'asc')->get();	
 		return view('product.index', compact('product'));
 	})->name('product.index');
 
+=======
+>>>>>>> ee846f1 (levantando todo o projeto para o github)
 	Route::get('product', function(){
 		//return view('product.index');
 		$product = Product::orderby('description', 'asc')->get();	
