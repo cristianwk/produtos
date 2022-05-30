@@ -3,6 +3,7 @@
         <div class="container"><br>
             <div class="row">
                 <div class="col-md-12">
+                <h1>CRUD Produtos Laravel</h1>
                     <div class="card">
                         <div class="card-header">
                             Lista de Produtos
