@@ -7,34 +7,35 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-
 ## Instruções sobre a construção do sistema
 
 Primeiros passos:
 
 -Criando o projeto usando composer:
-    composer create-project laravel/laravel loja --prefer-dist
+composer create-project laravel/laravel loja --prefer-dist
 
 -Migrando o BD
-    php artisan make:migration create_product_table
-    nessa hora temos que editar o arquivo .env com os dados do servior do DB
-    continuamos com o comando: php artisan migrate
+php artisan make:migration create_product_table
+nessa hora temos que editar o arquivo .env com os dados do servior do DB
+continuamos com o comando: php artisan migrate
 
 -Criando os Models
-    php artisan make:model Product
+php artisan make:model Product
 
 -Criando a autenticação
-    php artisan make:auth
-    onde vai gerar automaticamente a tela de registro/login
+php artisan make:auth
+onde vai gerar automaticamente a tela de registro/login
 
 -Logando no sistema (servidor hostgator)
-    http://produtos.consultoriawk.com/login
-    usuario: teste@gmail.com
-    senha: 123456
+http://produtos.consultoriawk.com/login
+usuario: teste@gmail.com
+senha: 123456
+
+-Projeto localhost (/laravel/produtos)
 
 -Autor
-    Cristian Marques
-    cristianms.awk@gmail.com    
+Cristian Marques
+cristianms.awk@gmail.com
 
 ## About Laravel
 
