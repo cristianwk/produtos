@@ -10,11 +10,8 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
- <!-- Bootstrap CSS via CDN -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
- <!-- Styles -->
- <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Styles -->
+    <link href="{{ asset('sass/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
